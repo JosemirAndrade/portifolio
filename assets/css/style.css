@@ -19,6 +19,9 @@
     --color-destaque2: #728e6f;
     --color-blue: #007bff;
     --color-fundo:#131313;
+    --color-azules: #121b3a;
+    --color-ciano: #02c8ef;
+    --color-mang: #e51577;
 
 }
 
@@ -46,7 +49,7 @@ html {
 }
 
 body {
-    background-color: var(--color-fundo);
+    background-color: var(--color-azules);
     width: 100%;
     display: flex;
     align-items: center;
@@ -143,7 +146,7 @@ a {
     justify-content: space-between;
     z-index: 99;
     transition: top 0.3s ease-in-out;
-    background-color:var(--color-fundo);
+    background-color:var(--color-azules);
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
 }
@@ -203,7 +206,7 @@ a {
 
 /* Menu Navegação */
 .menu-aberto {
-    background-color:var(--color-fundo);
+    background-color:var(--color-azules);
     position: fixed;
     left: 0;
     top: 0;
@@ -258,7 +261,7 @@ a {
 
 /*************** INICIO *****/
 .inicio {
-    background-color:var(--color-fundo);
+    background-color:var(--color-azules);
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -410,7 +413,7 @@ a {
 
 /*************** SOBRE *****/
 .sobre {
-    background-color: var(--color-fundo);
+    background-color: var(--color-azules);
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -429,7 +432,7 @@ a {
     justify-content: space-between;
     margin-top: 1rem;
     align-items: center;
-    background-color: var(--color-fundo);
+    background-color: var(--color-azules);
 }
 .headline-sobre {
     height: 40%;
@@ -864,7 +867,7 @@ a {
 }
 
 .container-portfolio {
-    background-color: var(--color-fundo);
+    background-color: var(--color-azules);
     width: 100%;
     max-width: 1400px;
     height: 100%;
@@ -1165,7 +1168,7 @@ a {
 
 /*************** FOOTER *****/
 .footer {
-    background-color: var(--color-fundo);
+    background-color: var(--color-azules);
     width: 100%;
     padding: 3rem 1rem;
     color: var(--color-white);
