@@ -1,19 +1,16 @@
 /* Responsividade para iPad (tablet) */
 @media (max-width: 1024px) {
 
+    /* Container Principal */
     .container {
-        padding: 0;
+        padding: 1rem;
     }
 
     /************************** SOBRE ***/
-    .sobre {
+    .sobre, .container-sobre {
         height: auto;
     }
 
-    .container-sobre {
-        height: auto;
-    }
-    
     .headline-sobre {
         height: auto;
         position: relative;
@@ -21,18 +18,11 @@
 
     .conteudo-sobre {
         flex-direction: column-reverse;
-        height: auto;
-        gap: 3rem;
+        gap: 2rem;
     }
 
-    .left-sobre {
+    .left-sobre, .right-sobre {
         width: 100%;
-        height: auto;
-    }
-
-    .right-sobre {
-        width: 100%;
-        height: auto;
     }
 
     .imagem-sobre {
@@ -48,6 +38,7 @@
     .complemento-sobre img {
         position: unset;
         width: 100%;
+        max-width: 100%;
     }
 
     /************************** SERVIÇOS ***/
@@ -65,20 +56,20 @@
     }
 
     .titulo-servicos h1 {
-        font-size: 6rem;
+        font-size: 4rem; /* Ajuste para telas menores */
     }
 
     .descricao-servicos {
         width: 100%;
-        text-align: right;
-        font-size: 1.4rem;
+        text-align: left;
+        font-size: 1.2rem; /* Ajuste no tamanho da fonte */
     }
 
     /************************** PORTFOLIO ***/
 
     .container-portfolio {
-        gap: 2rem;
-        padding: 2rem 1rem;
+        gap: 1.5rem;
+        padding: 1.5rem 0.5rem;
     }
 
     .headline-portfolio {
@@ -94,49 +85,39 @@
     }
 
     .headline-portfolio .titulo {
-        font-size: 6rem;
+        font-size: 4.5rem; /* Ajuste no tamanho da fonte */
     }
 
     .headline-portfolio .descricao {
         width: 100%;
-        text-align: right;
-        font-size: 1.4rem;
+        text-align: left;
+        font-size: 1.2rem; /* Ajuste no tamanho da fonte */
     }
 
     .container-case {
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
-    .case1,
-    .case3 {
+    .case1, .case3, .case2, .case4 {
         flex-direction: column;
         gap: 1rem;
         height: auto;
         justify-content: center;
     }
 
-    .case2, 
-    .case4 {
-        flex-direction: column-reverse;
-        gap: 1rem;
-        height: auto;
-        height: auto;
-        justify-content: center;
-    }
-    
     .imagens-case {
         width: 100%;
-        height: 60vh
+        height: 50vh; /* Ajuste no tamanho das imagens */
     }
 
     .textos-case {
         width: 100%;
-        height: 35vh;
+        height: 30vh; /* Ajuste no tamanho dos textos */
     }
 
     /************************** CONTATO ***/
     .contato {
-        padding: 0rem 1rem 2rem 1rem;
+        padding: 2rem 1rem;
         height: auto;
     }
 
@@ -158,13 +139,13 @@
     }
 
     .titulo-contato h1 {
-        font-size: 6rem;
+        font-size: 4.5rem; /* Ajuste no tamanho da fonte */
     }
 
     .descricao-contato {
         width: 100%;
-        text-align: right;
-        font-size: 1.4rem;
+        text-align: left;
+        font-size: 1.2rem; /* Ajuste no tamanho da fonte */
     }
 
     .descricao-contato a {
@@ -176,7 +157,6 @@
         font-weight: bold;
     }
 
-
     .conteudo-contato {
         padding-top: 2rem;
         flex-direction: column-reverse;
@@ -187,9 +167,9 @@
         justify-content: center;
     }
 
-    .logo-contato img{
+    .logo-contato img {
         width: 100%;
-        max-height: 500px;
+        max-height: 400px; /* Ajuste na altura da imagem */
         object-fit: cover;
     }
 
@@ -201,5 +181,35 @@
         width: auto;
         text-align: right;
         margin-top: 0;
+    }
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 600px) {
+
+    /* Ajustes gerais para telas pequenas */
+    .container {
+        padding: 0.5rem;
+    }
+
+    /* Ajustes de fontes */
+    .titulo-servicos h1, 
+    .headline-portfolio .titulo, 
+    .titulo-contato h1 {
+        font-size: 3.5rem; /* Reduzir ainda mais o tamanho para telas pequenas */
+    }
+
+    .descricao-servicos, 
+    .headline-portfolio .descricao, 
+    .descricao-contato {
+        font-size: 1rem; /* Ajuste para texto mais legível em dispositivos pequenos */
+    }
+
+    .imagens-case, .textos-case {
+        height: auto; /* Ajuste no tamanho das imagens e textos para não sobrecarregar o layout */
+    }
+
+    .logo-contato img {
+        max-height: 300px; /* Menor altura para a imagem no contato */
     }
 }
