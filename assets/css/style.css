@@ -10,14 +10,14 @@
 :root {
     --font-grande: 'TT Hoves Pro Trial', sans-serif;
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #000;
+    --color-black: #212020;
     --color-gray1: #3d4143;
     --color-gray2: #9c9d9d;
     --color-white: #f6f6f6;
     --color-destaque1: #e7fc00;
     --color-destaque2: #728e6f;
     --color-blue: #007bff;
-    --color-fundo:#131313;
+    --color-fundo:#212020;
     --color-azules: #121b3a;
     --color-ciano: #02c8ef;
     --color-mang: #e51577;
