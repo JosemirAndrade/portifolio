@@ -10,17 +10,17 @@
 :root {
     --font-grande: 'TT Hoves Pro Trial', sans-serif;
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
-    --color-black: #212020;
-    --color-gray1: #3d4143;
-    --color-gray2: #9c9d9d;
-    --color-white: #f6f6f6;
-    --color-destaque1: #e7fc00;
-    --color-destaque2: #728e6f;
-    --color-blue: #dedede;
-    --color-fundo:#212020;
-    --color-azules: #212020;
-    --color-ciano: #02c8ef;
-    --color-mang: #e51577;
+    --color-black: #ff7a03;  /* laranja */
+    --color-gray1: #f5f500;  /* amarelo */
+    --color-gray2: #f50708; /* vermelho */
+    --color-white: #0588c0;  /* verde jade */
+    --color-destaque1: #3b029f ;  /* lilas */
+    --color-destaque2: #7701ec;  /* lilas claro */
+    --color-blue: #02ec01;  /* verde limão */
+    --color-fundo:#212020;  /* lilas */
+    --color-azules: #212020;  /* lilas */
+    --color-ciano: #02c8ef;  /* lilas */
+    --color-mang: #e51577;  /* lilas */
 }
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
