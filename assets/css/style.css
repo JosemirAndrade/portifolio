@@ -16,9 +16,10 @@
     --color-white: #0588c0;  /* verde jade */
     --color-destaque1: #3b029f ;  /* lilas */
     --color-destaque2: #7701ec;  /* lilas claro */
-    --color-BlueDark: #081730;  /* azul escuro ---------- */
+    
+    --color-BlueD: #081730;  /* azul escuro ---------- */
     --color-branco: #f9fcfe;  /* branco ---------- */
-    --color-CinzaDark: #192a43;  /* cinza escuro ---------- */
+    --color-CinzaD: #192a43;  /* cinza escuro ---------- */
     --color-ciano: #2dc7ee;  /* ciano ---------- */
     --color-CinzaClaro: #f4f8fd;  /* cinza claro  ----------*/
 }
@@ -128,7 +129,7 @@ a {
     justify-content: space-between;
     z-index: 99;
     transition: top 0.3s ease-in-out;
-    background-color:var(--color-azules);
+    background-color:var(--color-BlueD);
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px); 
 }
@@ -177,7 +178,7 @@ a {
 }
 /* Menu Navegação */
 .menu-aberto {
-    background-color:var(--color-azules);
+    background-color:var(--color-CinzaD);
     position: fixed;
     left: 0;
     top: 0;
@@ -226,7 +227,7 @@ a {
 }
 /*************** INICIO *****/
 .inicio {
-    background-color:var(--color-azules);
+    background-color:var(--color-BlueD);
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -358,7 +359,7 @@ a {
 }
 /*************** SOBRE *****/
 .sobre {
-    background-color: var(--color-azules);
+    background-color: var(--color-BlueD);
     width: 100vw;
     height: 80vh;
     display: flex;
@@ -1042,7 +1043,7 @@ a {
 }
 /*************** FOOTER *****/
 .footer {
-    background-color: var(--color-azules);
+    background-color: var(--color-BlueD);
     width: 100%;
     padding: 3rem 1rem;
     color: var(--color-white);
