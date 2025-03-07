@@ -837,6 +837,7 @@ a {
 }
 .formulario-contato h2 {
     font-size: 2rem;
+    color: var(--color-branco);
 }
 .formulario-contato p {
     font-size: 1.5rem;
