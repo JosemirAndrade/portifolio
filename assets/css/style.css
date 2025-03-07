@@ -16,7 +16,8 @@
     --color-white: #0588c0;  /* verde jade */
     --color-destaque1: #3b029f ;  /* lilas */
     --color-destaque2: #7701ec;  /* lilas claro */
-  
+
+    --color-green: #018a0f;  /* verde whats ---------- */
     --color-black: #000914;  /* preto escuro ---------- */
     --color-BlueD: #081730;  /* azul escuro ---------- */
     --color-branco: #f9fcfe;  /* branco ---------- */
@@ -34,7 +35,7 @@
 ::-webkit-scrollbar-thumb {
     background-color: var(--color-CinzaD);
     border-radius: 20px;
-    border: 3px solid var(--color-CinzaD);
+    border: 2px solid var(--color-CinzaD);
 }
 ::-webkit-scrollbar-thumb:hover {
     background-color: var(--color-CinzaD);
@@ -78,12 +79,12 @@ a {
 #backToTop {
     bottom: 20px;
     left: 20px;
-    box-shadow: 0px 0px 10px var(--color-blue); 
+    box-shadow: 0px 0px 10px var(--color-CinzaD); 
 }
 #whatsappButton {
     bottom: 20px;
     right: 20px;
-    background-color: var(--color-blue);
+    background-color: var(--color-green);
     box-shadow: 0px 0px 10px rgba(3, 162, 253, 0.5); 
     animation: pulse 2s infinite;
 }
