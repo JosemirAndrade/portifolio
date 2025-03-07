@@ -801,7 +801,7 @@ a {
     justify-content: left;
 }
 .titulo-contato h1 {
-    color: var(--color-black);
+    color: var(--color-branco);
     width: 50%;
     font-size: 8vw;
     font-weight: lighter;
@@ -813,7 +813,7 @@ a {
 }
 .descricao-contato a {
     text-decoration: none;
-    color: var(--color-black);
+    color: var(--color-branco);
     font-size: 2rem;
     letter-spacing: 1.5px;
     line-height: 1.4;
@@ -828,7 +828,7 @@ a {
     gap: 2rem;
 }
 .formulario-contato {
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -841,12 +841,12 @@ a {
 }
 .formulario-contato p {
     font-size: 1.5rem;
-    color: var(--color-gray1);
+    color: var(--color-branco);
     font-weight: 500;
     line-height: 1.4;
 }
 .form {
-    height: 100%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -874,8 +874,8 @@ a {
     padding: 1.5rem 1rem;
 }
 .btn {
-    background-color: var(--color-destaque1);
-    color: var(--color-black);
+    background-color: var(--color-ciano);
+    color: var(--color-branco);
     font-weight: bold;
     width: 190px;
     padding: 1rem 0rem;
@@ -883,17 +883,7 @@ a {
     outline: none;
     border-radius: 30px;
 }
-.logo-contato {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-}
-.logo-contato img {
-    width: 80%;
-    border-radius: 36px;
-}
+
 /*************** FOOTER *****/
 .footer {
     width: 100vw;
