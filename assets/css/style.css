@@ -897,6 +897,8 @@ a {
 }
 /*************** FOOTER *****/
 .footer {
+    width: 100vw;
+    height: 100%;
     background-color: var(--color-BlueD);
     width: 100%;
     padding: 3rem 1rem;
