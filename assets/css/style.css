@@ -16,11 +16,11 @@
     --color-white: #0588c0;  /* verde jade */
     --color-destaque1: #3b029f ;  /* lilas */
     --color-destaque2: #7701ec;  /* lilas claro */
-    --color-blue: #02ec01;  /* verde limão */
-    --color-fundo: #a5194a;  /* vinho */
-    --color-azules: #98eded;  /* verde pastel */
-    --color-ciano: #ff00fe;  /* pinck */
-    --color-mang: #5d1113;  /* marrom */
+    --color-BlueDark: #081730;  /* azul escuro ---------- */
+    --color-branco: #f9fcfe;  /* branco ---------- */
+    --color-CinzaDark: #192a43;  /* cinza escuro ---------- */
+    --color-ciano: #2dc7ee;  /* ciano ---------- */
+    --color-CinzaClaro: #f4f8fd;  /* cinza claro  ----------*/
 }
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
