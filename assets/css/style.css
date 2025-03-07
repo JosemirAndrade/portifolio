@@ -16,7 +16,7 @@
     --color-white: #0588c0;  /* verde jade */
     --color-destaque1: #3b029f ;  /* lilas */
     --color-destaque2: #7701ec;  /* lilas claro */
-
+ 
     --color-green: #018a0f;  /* verde whats ---------- */
     --color-black: #000914;  /* preto escuro ---------- */
     --color-BlueD: #081730;  /* azul escuro ---------- */
@@ -775,6 +775,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: var(--color-BlueD);
+    border: 2px solid var(--color-gray1);
 }
 .container-contato {
     width: 100%;
