@@ -19,8 +19,8 @@
     --color-blue: #02ec01;  /* verde limão */
     --color-fundo: #a5194a;  /* vinho */
     --color-azules: #98eded;  /* verde pastel */
-    --color-ciano: #02c8ef;  /* lilas */
-    --color-mang: #e51577;  /* lilas */
+    --color-ciano: #ff00fe;  /* pinck */
+    --color-mang: #5d1113;  /* marrom */
 }
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
