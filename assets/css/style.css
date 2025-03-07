@@ -522,6 +522,7 @@ a {
     justify-content: center;
     background-color: var(--color-CinzaClaro);
     border: solid palevioletred;
+ 
 }
 .container-skills {
     width: 70%;
@@ -801,14 +802,20 @@ a {
     justify-content: left;
 }
 .titulo-contato h1 {
+   display: flex;  
+   justify-content: center;
+   align-items: center;
    font-family: var(--font-grande);
    color: var(--color-branco);
    font-size: 3rem;
 
 }
 .descricao-contato {
-    width: 50%;
-    text-align: right;
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+   text-align: right;
 }
 .descricao-contato a {
     text-decoration: none;
@@ -836,8 +843,9 @@ a {
     padding: 2rem 0rem 2rem 0rem;
 }
 .formulario-contato h2 {
-    font-size: 2rem;
-    color: var(--color-branco);
+   font-family: var(--font-grande);
+   color: var(--color-branco);
+   font-size: 3rem;
 }
 .formulario-contato p {
     font-size: 1.5rem;
