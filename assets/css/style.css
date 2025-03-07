@@ -17,7 +17,7 @@
     --color-destaque1: #3b029f ;  /* lilas */
     --color-destaque2: #7701ec;  /* lilas claro */
   
-    --color-BlueD: #000914;  /* preto escuro ---------- */
+    --color-black: #000914;  /* preto escuro ---------- */
     --color-BlueD: #081730;  /* azul escuro ---------- */
     --color-branco: #f9fcfe;  /* branco ---------- */
     --color-CinzaD: #192a43;  /* cinza escuro ---------- */
@@ -32,7 +32,7 @@
     background: var(--color-BlueD);
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color-ciano);
+    background-color: var(--color-CinzaD);
     border-radius: 20px;
     border: 3px solid var(--color-black);
 }
