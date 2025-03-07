@@ -16,7 +16,8 @@
     --color-white: #0588c0;  /* verde jade */
     --color-destaque1: #3b029f ;  /* lilas */
     --color-destaque2: #7701ec;  /* lilas claro */
-    
+  
+    --color-BlueD: #000914;  /* preto escuro ---------- */
     --color-BlueD: #081730;  /* azul escuro ---------- */
     --color-branco: #f9fcfe;  /* branco ---------- */
     --color-CinzaD: #192a43;  /* cinza escuro ---------- */
@@ -28,21 +29,21 @@
     width: 12px;
 }
 ::-webkit-scrollbar-track {
-    background: var(--color-black);
+    background: var(--color-BlueD);
 }
 ::-webkit-scrollbar-thumb {
-    background-color: var(--color-blue);
+    background-color: var(--color-ciano);
     border-radius: 20px;
     border: 3px solid var(--color-black);
 }
 ::-webkit-scrollbar-thumb:hover {
-    background-color: var(--color-gray2);
+    background-color: var(--color-CinzaD);
 }
 html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: var(--color-azules);
+    background-color: var(--color-BlueD);
     width: 100%;
     display: flex;
     align-items: center;
