@@ -523,7 +523,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-azules);
+    background-color: var(--color-CinzaClaro);
     border: solid palevioletred;
 }
 .container-skills {
