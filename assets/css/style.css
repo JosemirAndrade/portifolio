@@ -801,11 +801,10 @@ a {
     justify-content: left;
 }
 .titulo-contato h1 {
-    color: var(--color-branco);
-    width: 50%;
-    font-size: 8vw;
-    font-weight: lighter;
-    font-family: var(--font-grande);
+   font-family: var(--font-grande);
+   color: var(--color-branco);
+   font-size: 3rem;
+
 }
 .descricao-contato {
     width: 50%;
