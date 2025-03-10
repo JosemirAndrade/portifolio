@@ -16,7 +16,7 @@
  
     --color-green: #018a0f;  /* verde whats ---------- */
     --color-black: #000914;  /* preto escuro ---------- */
-    --color-BlueD: #000000;  /* azul escuro ---------- */
+    --color-BlueD: #081533;  /* azul escuro ---------- */
     --color-branco: #f9fcfe;  /* branco ---------- */
     --color-CinzaD: #06080d;  /* cinza escuro ---------- */
     --color-ciano: #174bdf;  /* ciano ---------- */
@@ -636,7 +636,7 @@ a {
 .headline-portfolio .titulo {
     width: 80%;
     font-family: var(--font-grande);
-    color: var(--color-CinzaD);
+    color: var(--color-BlueD);
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
@@ -647,7 +647,7 @@ a {
     text-align: center;
     line-height: 1.4;
     letter-spacing: 1.5px;
-    color: var(--color-CinzaD);
+    color: var(--color-BlueD);
 }    
 .container-case {
     width: 100%;
@@ -676,7 +676,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 6px 4px 10px var(--color-CinzaD); /* Sombra do contêiner */
+    box-shadow: 6px 4px 10px var(--color-BlueD); /* Sombra do contêiner */
     border-radius: 20px; /* Arredondamento */
 }
 .slide {
@@ -733,7 +733,7 @@ a {
     justify-content: center;
 }
 .conteudo-textos-case h1 {
-    color: var(--color-CinzaD);
+    color: var(--color-BlueD);
     font-family: var(--font-grande);
     font-size: 1.5vw;
     font-weight: bold;
@@ -741,7 +741,7 @@ a {
     letter-spacing: 3px;
 }
 .conteudo-textos-case p {
-    color: var(--color-CinzaD);
+    color: var(--color-BlueD);
     font-size: 1.5rem;
     line-height: 1.4;
     letter-spacing: 1.5px;
@@ -762,47 +762,15 @@ a {
 }
 /*************** CONTATO *****/
 .contato {
-    width: 100vw;
-    height: 100%;
+    height: 70%;
     display: flex;
     padding: 2rem 0rem 3rem 0rem;
     align-items: center;
     justify-content: center;
     background-color: var(--color-BlueD);
-    border: 2px solid var(--color-ciano);
+    border: 2px solid var(--color-branco);
 }
-.container-contato {
-    width: 100%;
-    height: 100vh;
-    max-width: 1400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 2px solid var(--color-destaque1);
-}
-.headline-contato {
-    width: 100%;
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.titulo-contato {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-.titulo-contato h1 {
-   display: flex;  
-   justify-content: center;
-   align-items: center;
-   font-family: var(--font-grande);
-   color: var(--color-ciano);
-   font-size: 3rem;
 
-}
 .descricao-contato {
    display: flex;  
    justify-content: center;
@@ -832,8 +800,9 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 2rem 0rem 2rem 0rem;
+    border: solid #018a0f;
 }
 .formulario-contato h2 {
    font-family: var(--font-grande);
@@ -858,9 +827,8 @@ a {
     font-family: var(--font-pequena);
     width: 100%;
     height: 30px;
-    border-radius: 30px;
+    border-radius: 25px;
     outline: none;
-    border: 2px solid rgba(128, 128, 128, 0.5);
     padding: 1.5rem 1rem;
     font-size: 1.2rem;
 }
@@ -869,7 +837,6 @@ a {
     height: 100%;
     border-radius: 30px;
     outline: none;
-    border: 2px solid rgba(128, 128, 128, 0.5);
     font-family: var(--font-pequena);
     font-size: 1.2rem;
     padding: 1.5rem 1rem;
@@ -880,9 +847,8 @@ a {
     font-weight: bold;
     width: 190px;
     padding: 1rem 0rem;
-    border: 2px solid rgba(128, 128, 128, 0.5);
     outline: none;
-    border-radius: 30px;
+    border-radius: 60px;
 }
 
 /*************** FOOTER *****/
@@ -892,7 +858,7 @@ a {
     background-color: var(--color-BlueD);
     width: 100%;
     padding: 3rem 1rem;
-    color: var(--color-ciano);
+    color: var(--color-CinzaClaro);
     display: flex;
     flex-direction: column;
     align-items: center;
