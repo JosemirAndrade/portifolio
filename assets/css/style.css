@@ -157,7 +157,7 @@ a {
     text-decoration: none;
     color: var(--color-branco);
     font-family: var(--font-pequena);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight:bold;
     transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
@@ -174,8 +174,8 @@ a {
 /*************** INICIO *****/
 .inicio {
     background-color:var(--color-BlueD);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -186,6 +186,8 @@ a {
 }
 .container-inicio {
     width: 100%;
+    height: auto;
+
     color: var(--color-branco);
     display: flex;
     flex-direction: column;
@@ -299,16 +301,17 @@ a {
 /*************** SOBRE *****/
 .sobre {
     background-color: var(--color-BlueD);
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items:center;
     justify-content: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     z-index: 1;
     margin-top: 2rem;
     user-select: none;
     overflow: visible;
+    border: 2px solid goldenrod;
 }
 .container-sobre {
     width: 90%;
@@ -458,8 +461,8 @@ a {
 }
 /*************** SKILLS *****/
 .skills {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     padding: 8rem 2rem;
     display: flex;
     flex-direction: column;
@@ -552,27 +555,25 @@ a {
     }
 }
 /*************** SERVIÇOS *****/
-.portfolio {
+.servicos {
     width: 100%;
     height: 100%;
     background-color: var(--color-branco);   
-    background-size: cover; /* Garante que a imagem cubra o container */
-    background-position: center; /* Centraliza a imagem no container */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.container-portfolio {
-    width: 90%;
+.container-servicos {
+    width: 98%;
     height: 100%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border: solid #1707f8;
 }
-.headline-portfolio {
+
+.headline-servicos {
     width: 100%;
     height: 40vh;
     display: flex;
@@ -580,7 +581,7 @@ a {
     align-items: center;
     justify-content: center;
 }
-.headline-portfolio .titulo {
+.headline-servicos .titulo {
     width: 80%;
     font-family: var(--font-grande);
     color: var(--color-BlueD);
@@ -588,7 +589,7 @@ a {
     font-weight: bold;
     text-align: center;
 }    
-.headline-portfolio .descricao {
+.headline-servicos .descricao {
     width: 80%;
     font-size: 1.5rem;
     text-align: center;
