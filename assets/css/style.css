@@ -155,7 +155,7 @@ a {
 .nav-menu a {
     user-select: none;
     text-decoration: none;
-    color: var(--color-white);
+    color: var(--color-branco);
     font-family: var(--font-pequena);
     font-size: 1.5rem;
     font-weight:bold;
