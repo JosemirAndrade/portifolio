@@ -12,11 +12,12 @@
     --font-pequena: 'ClashGrotesk-Light', sans-serif;
     --color-green: #018a0f;  /* verde whats ---------- */
     --color-black: #000914;  /* preto escuro ---------- */
-    --color-BlueD: #081533;  /* azul escuro ---------- */
+    --color-BlueD: #132031;  /* azul escuro ---------- */
     --color-branco: #f9fcfe;  /* branco ---------- */
     --color-CinzaD: #06080d;  /* cinza escuro ---------- */
     --color-ciano: #174bdf;  /* ciano ---------- */
-    --color-CinzaClaro: #f4f8fd;  /* cinza claro  ----------*/
+    --color-CinzaClaro: #f0f1f4;  /* cinza claro  ----------*/
+    --color-amarelo:#fec200; /*Amarelo*/
 }
 /* Estilizando a barra de rolagem */
 ::-webkit-scrollbar {
@@ -175,7 +176,7 @@ a {
 .inicio {
     background-color:var(--color-BlueD);
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -463,102 +464,102 @@ a {
 .skills {
     width: 100%;
     height: 100%;
-    padding: 8rem 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-ciano);
-    border: solid palevioletred;
- 
-}
-.container-skills {
-    width: 100%;
-    display:grid;
-    align-items: center;
-    justify-content:center;
-    padding:2rem 2rem;
-    text-align: center;
-    border: solid #e51577;
-}
-.headline-skills {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1em;
-    color: var(--color-branco);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.text-headline-skills h2 {
-    font-family: var(--font-grande);
-    font-size: 3rem;
-    color: var(--color-branco);
-}
-.text-headline-skills p {
+    padding: 60px 20px;
     font-size: 1.5rem;
-    color: var(--color-CinzaClaro);
-    font-weight: 500;
+    text-align: center;
     line-height: 1.4;
-    max-width: 900px;
+    background-color: #ffffff;
 }
-.conteudo-skills {
+
+.headline-skills h2 {
+    width: 100%;
+    font-size:4rem;
+    font-family: var(--font-grande);
+    color: var(--color-ciano);
+    font-weight: bold;
+    text-align: center;
+}
+
+.headline-skills p {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--color-BlueD);
+    margin-bottom: 40px;
+
+}
+
+.skills-grid {
     display: grid;
-    gap:1.5rem;
-    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: auto;
 }
-.box-skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 0.1rem solid rgb(2, 188, 235);
+
+.skill-card {
+    background:var(--color-CinzaClaro);
+    border-radius: 10px;
+    padding: 60px 20px;
+    box-shadow: 0px 4px 10px rgba(1, 69, 255, 0.281);
+    text-align: justify;
+    transition: transform 0.2s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    background: var(--color-ciano);
+    width: 40px;
+    height: 40px;
     border-radius: 10px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;   
-    height: 140px;
-    width: 140px;
-    gap: 1rem;
+    color: #f8f8f8;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
-.icon-skills {
-    width: 50%;
-    height: auto;
+
+.skill-card h3 {
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000000;
 }
-.box-skills i {
-    font-size: 3rem;
-    color: var(--color-branco);
+
+.skill-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
 }
-.box-skills h3 {
+
+.skill-card ul li {
     font-size: 1rem;
-    color: var(--color-branco);
+    padding-left: 1.2em;
+    position: relative;
+    color: #374151;
+    margin-bottom: 4px;
 }
-.box-skills p {
-    color: var(--color-CinzaClaro);
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.4;
-    color: var(--color-blue);
+
+.skill-card ul li::before {
+    content: "•";
+    color: var(--color-ciano);
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+    line-height: 1;
 }
-@media (min-width: 600px) {
-    .conteudo-skills {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-@media (min-width: 700px) {
-    .conteudo-skills {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-@media (min-width: 900px) {
-    .conteudo-skills {
-        grid-template-columns: repeat(5, 1fr);
-    }
-}
+
 /*************** SERVIÇOS *****/
 .servicos {
     width: 100%;
     height: 100%;
-    background-color: var(--color-branco);   
+    background-color: var(--color-BlueD);   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -567,7 +568,7 @@ a {
     width: 98%;
     height: 100%;
     display: grid;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     border: solid #1707f8;
@@ -584,7 +585,7 @@ a {
 .headline-servicos .titulo {
     width: 80%;
     font-family: var(--font-grande);
-    color: var(--color-BlueD);
+    color: #ffffff;
     font-size: 4rem;
     font-weight: bold;
     text-align: center;
@@ -595,7 +596,7 @@ a {
     text-align: center;
     line-height: 1.4;
     letter-spacing: 1.5px;
-    color: var(--color-BlueD);
+    color: var(--color-CinzaClaro);
 }    
 .container-case {
     width: 100%;
@@ -680,7 +681,7 @@ a {
     justify-content: center;
 }
 .conteudo-textos-case h1 {
-    color: var(--color-BlueD);
+    color: var(--color-branco);
     font-family: var(--font-grande);
     font-size: 1.5vw;
     font-weight: bold;
@@ -688,7 +689,7 @@ a {
     letter-spacing: 3px;
 }
 .conteudo-textos-case p {
-    color: var(--color-BlueD);
+    color: var(--color-CinzaClaro);
     font-size: 1.5rem;
     line-height: 1.4;
     letter-spacing: 1.5px;
@@ -715,7 +716,7 @@ a {
     padding: 2rem 0rem 3rem 0rem;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-blue);
+    background-color: var(--color-ciano);
 }
 
 .container-contato {
